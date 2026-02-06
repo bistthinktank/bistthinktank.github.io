@@ -1,7 +1,7 @@
 <h1 align="center">Personal Portfolio 🐦‍🔥</h1>
 
 <p align="center">
-    <b>A sleek portfolio website themed after Kali Linux.<br></b>
+    <b>A sleek portfolio website themed after Kali Linux for ThinkTank Team.<br></b>
     Built with React & TypeScript, simulating Kali Linux desktop environment to showcase projects, resume, and contact info.
 </p>
 
@@ -9,9 +9,8 @@
 
 - [Features](#features)
 - [Tech stack](#tech-stack)
-- [Run locally](#run-locally)
-- [Contributing](#contributing)
-
+- [Developer](#developer)
+  
 ## Features
 
 - Responsive, terminal-style portfolio UI
@@ -28,22 +27,6 @@
 - Styled Components (for styling)
 - GitHub Pages (hosting)
 
-## Run locally
+### Developer
 
-Clone the project and install dependencies:
-
-```bash
-git clone https://github.com/Lunixizm0/lunixizm0.github.io
-cd lunixizm0.github.io
-git remote remove origin
-pnpm install
-pnpm dev
-```
-
-## Contributing
-
-Contributions are welcome. If you'd like to contribute:
-
-1. Fork the repo
-2. Create a feature branch
-3. Open a PR describing your change
+[@Lunixizm0](https://github.com/Lunixizm0)
