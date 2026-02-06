@@ -1,0 +1,7 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://ThinkTank-bist.github.io/Portfolio-Project/sitemap.xml
+
