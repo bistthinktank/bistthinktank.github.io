@@ -66,16 +66,10 @@ const Projects: React.FC = () => {
 const projects = [
   {
     id: 1,
-    title: "Data-Collector",
-    desc: "A data collector tool for Windows.",
-    url: "https://github.com/Lunixizm0/Data-Collector",
-  },
-  {
-    id: 2,
-    title: "Watch My Back",
-    desc: "A scraper tool for services like HIBP",
-    url: "https://github.com/Lunixizm0/Watch-My-Back",
-  },
+    title: "Strong Time",
+    desc: "A feature rich markdown editor",
+    url: "https://strong-time.vercel.app",
+  }
 ];
 
 export default Projects;

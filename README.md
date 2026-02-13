@@ -1,4 +1,4 @@
-<h1 align="center">Personal Portfolio 🐦‍🔥</h1>
+<h1 align="center">Personal Team Portfolio 🐦‍🔥</h1>
 
 <p align="center">
     <b>A sleek portfolio website themed after Kali Linux for ThinkTank Team.<br></b>
