@@ -39,7 +39,7 @@ const Projects: React.FC = () => {
       <Usage cmd="projects" />
     ) : null;
 
-  return arg.length > 0 || arg.length > 2 ? (
+  return arg.length === 1 || arg.length > 2 ? (
     checkArg()
   ) : (
     <div data-testid="projects">
