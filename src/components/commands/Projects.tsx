@@ -22,9 +22,16 @@ const Projects: React.FC = () => {
   /* ===== check current command is redirect ===== */
   useEffect(() => {
     if (checkRedirect(rerender, currentCommand, "projects")) {
-      projects.forEach(({ id, url }) => {
-        id === parseInt(arg[1]) && window.open(url, "_blank");
-      });
+      if (arg.length > 1) {
+        const parsedId = parseInt(arg[1], 10);
+        if (!Number.isNaN(parsedId)) {
+          projects.forEach(({ id, url }) => {
+            if (id === parsedId) {
+              window.open(url, "_blank");
+            }
+          });
+        }
+      }
     }
   }, [arg, rerender, currentCommand]);
 
