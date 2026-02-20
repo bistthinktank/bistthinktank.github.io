@@ -1,7 +1,7 @@
 {
   "name": "Portfolio-Project",
   "private": true,
-  "version": "1.3.1",
+  "version": "2.0",
   "scripts": {
     "dev": "vite --port 8000",
     "build": "tsc && vite build",
@@ -16,11 +16,11 @@
   },
   "dependencies": {
     "lodash": "^4.17.21",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-icons": "^4.12.0",
-    "styled-components": "^5.3.10",
-    "styled-normalize": "^8.0.7"
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-icons": "^5.5.0",
+    "styled-components": "^6.3.10",
+    "styled-normalize": "^8.1.1"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.5",
